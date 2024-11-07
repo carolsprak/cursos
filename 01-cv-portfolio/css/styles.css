@@ -201,8 +201,7 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 
 .experience-section{ background: #000000; color: #fff; }
-
-.experience .img {
+.img {
 	border: 1px solid #ee9a0a;
   }
 
