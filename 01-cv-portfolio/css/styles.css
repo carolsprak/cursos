@@ -202,6 +202,10 @@ b.max-bold{ font-weight: 700; }
 
 .experience-section{ background: #000000; color: #fff; }
 
+.experience .img {
+	border: 1px solid #ee9a0a;
+  }
+
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
 .experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
