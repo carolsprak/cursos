@@ -200,7 +200,7 @@ b.max-bold{ font-weight: 700; }
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #000000; color: #fff; }
+.experience-section{ background: #272727; color: #fff; }
 .img {
 	border: 1px solid #ee9a0a;
   }
@@ -263,5 +263,5 @@ b.max-bold{ font-weight: 700; }
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #26c8d0; color: #fff;}
+.copyright{ text-align: center; padding: 30px 0; background: #26c8d0; color: #000;}
 
