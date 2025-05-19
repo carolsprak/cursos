@@ -77,6 +77,45 @@ button{ outline: 0; border: 0; background: none; cursor: pointer; }
 b.max-bold{ font-weight: 700; }
 
 
+/* ---------------------------------
+1. BARRA SELECT
+--------------------------------- */
+    .body {
+      margin: 0;
+      padding-top: 60px; /* Espaço para a barra fixa */
+      font-family: Arial, sans-serif;
+    }
+
+    .topbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #6aafe4;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    .topbar h1 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .topbar .nav-links a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .topbar .nav-links a:hover {
+      text-decoration: underline;
+    }
+  
 
 /* ---------------------------------
 2. COMMONS FOR PAGE DESIGN
