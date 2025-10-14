@@ -178,7 +178,7 @@ export default function LandingCursoTesteBasico() {
       <section id="beneficios" className="py-14">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-6">
-            <Feature icon={PlayCircle} title="Aulas 100% Gravadas" desc="Assista no seu ritmo e revise quando quiser." />
+            <Feature icon={PlayCircle} title="Aulas Gravadas + Ao vivo" desc="Assista no seu ritmo e revise quando quiser." />
             <Feature icon={Bug} title="Testes Manuais" desc="Foco em fundamentos e prática guiada." />
             <Feature icon={Layers} title="Scrum" desc="Entenda o papel do QA em times ágeis." />
             <Feature icon={FileCheck2} title="Jira & Confluence" desc="Organize casos, defeitos e documentação." />
