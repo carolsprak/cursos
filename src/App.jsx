@@ -15,17 +15,17 @@ const MENTORA = mentora;
 const TESTIMONIALS = [
   {
   name: "Raquel",
-  role: "Gerente de Telecomunicação",
+  role: "Aluna do curso",
   quote: "O Conteúdo, muito bem explicado e as tarefas com a participação de toda a turma, simulando o ambiente real de trabalho.",
   },
   {
   name: "Jenifer",
-  role: "Vendedora",
+  role: "Aluna do curso",
   quote: "Me ajudou a migrar como QA júnior.",
   },
   {
   name: "Wellington",
-  role: "Estagiário QA",
+  role: "Aluno do curso",
   quote: "Foi um curso muito completo. Agregou muito no meu aprendizado. Professora Anne Rocha sabe conduzir as aulas de forma que prende a atenção e desperta interesse pelo conteúdo.",
   },
   ];
