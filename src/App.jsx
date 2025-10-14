@@ -355,7 +355,7 @@ export default function LandingCursoTesteBasico() {
                 <CardContent className="space-y-3 text-sm">
                   <div className="text-3xl font-black text-insprak-900">R$ 149</div>
                   <ul className="space-y-2">
-                    {["Acesso às aulas gravadas", "5 encontros ao vivo (dúvidas)", "Atividades práticas", "Certificado"].map((t, i) => (
+                    {["Acesso às aulas gravadas", "5 aulas ao vivo", "Atividades práticas", "Certificado"].map((t, i) => (
                       <li key={i} className="flex items-start gap-2 text-insprak-800"><CheckCircle2 className="h-5 w-5 mt-0.5 text-insprak-600" /> {t}</li>
                     ))}
                   </ul>
