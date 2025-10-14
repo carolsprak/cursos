@@ -10,6 +10,14 @@ Acessar: https://bit.ly/3Wbj1D2
 ```bash
 npm install
 npm run dev
+
+
+```
+### Forçar o deploy
+
+```bash
+git commit --allow-empty -m "ci: trigger deploy"
+git push
 ```
 
 ### Build manual
