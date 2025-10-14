@@ -20,7 +20,7 @@ git commit --allow-empty -m "ci: trigger deploy"
 git push
 ```
 
-### Build manual
+### Build manual 
 
 ```bash
 npm run build
