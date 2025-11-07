@@ -15,12 +15,12 @@ const MENTORA = mentora;
 const TESTIMONIALS = [
   {
   name: "Queiroz",
-  role: "Aluna do curso",
+  role: "Aluno do curso",
   quote: "O Conteúdo, muito bem explicado e as tarefas com a participação de toda a turma, simulando o ambiente real de trabalho.",
   },
   {
   name: "Ferreira",
-  role: "Aluna do curso",
+  role: "Aluno do curso",
   quote: "Me ajudou a migrar como QA júnior.",
   },
   {
