@@ -14,17 +14,17 @@ const MENTORA = mentora;
 // === Depoimentos (edite os nomes/roles/quotes aqui) ===
 const TESTIMONIALS = [
   {
-  name: "Queiroz",
-  role: "Aluno do curso",
+  name: "R. Queiroz",
+  role: "Aluna do curso",
   quote: "O Conteúdo, muito bem explicado e as tarefas com a participação de toda a turma, simulando o ambiente real de trabalho.",
   },
   {
-  name: "Ferreira",
-  role: "Aluno do curso",
+  name: "J. Ferreira",
+  role: "Aluna do curso",
   quote: "Me ajudou a migrar como QA júnior.",
   },
   {
-  name: "Alves",
+  name: "W. Alves",
   role: "Aluno do curso",
   quote: "Foi um curso muito completo. Agregou muito no meu aprendizado. Professora Anne Rocha sabe conduzir as aulas de forma que prende a atenção e desperta interesse pelo conteúdo.",
   },
