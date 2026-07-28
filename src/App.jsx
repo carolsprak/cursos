@@ -243,7 +243,7 @@ export default function LandingCursoTesteBasico() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 items-start">
           <motion.div {...fadeUp} className="md:col-span-1">
             <h2 className="text-2xl md:text-3xl font-bold">Para quem é o curso?</h2>
-            <p className="text-insprak-700 mt-2">Perfeito para iniciantes e profissionais migrando de outras áreas que querem resultados práticos rapidamente.</p>
+            <p className="text-insprak-700 mt-2">Perfeito tanto para iniciantes quanto profissionais que já atuam em QA e desejam evoluir tecnicamente.</p>
           </motion.div>
           <div className="md:col-span-2 grid sm:grid-cols-2 gap-4">
             <Feature icon={Laptop} title="QA Júnior/Pleno" desc="Quer evoluir a carreira para QA Pleno/Sênior" />
