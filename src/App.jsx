@@ -252,7 +252,7 @@ export default function LandingCursoTesteBasico() {
             <Feature icon={Laptop} title="QA Experiente" desc="Quer evoluir a carreira para um QA Sênior essencial nos projetos" /> 
             <Feature icon={GitBranch} title="QA Iniciante" desc="Para aprimorar o pensamento estratégico e se destacar na carreira." />
             <Feature icon={ClipboardCheck} title="Profissionais de TI" desc="Profissionais de TI que trabalham com engenharia de software" />
-            <Feature icon={GitBranch} title="Pessoas de produto" desc="Profissionais de TI, POs, Agilistas, UX Design que desejam melhorar a qualidade das entregas." />
+            <Feature icon={Smartphone} title="Pessoas de produto" desc="Profissionais de TI, POs, Agilistas, UX Design que desejam melhorar a qualidade das entregas." />
           </div>
         </div>
       </section>
