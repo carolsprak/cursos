@@ -342,7 +342,7 @@ export default function LandingCursoTesteBasico() {
             <p className="text-insprak-700 mt-2">Tech Lead QA. Mestre em Ciência da Computação e referência em Qualidade de Software, com mais de 18 anos de carreira, certificação BSTQB (CTFL-AT) e autora do livro “Simplificando Teste de Software”. Desde 2012, ensina em pós-graduação e formações em TI, unindo teoria e prática em Web e Mobile (React, Flutter, Rails, Java, HTML/CSS/JS). Apaixonada por ensinar, ajuda iniciantes e profissionais a evoluírem em Testes de Software, acreditando que qualidade transforma carreiras e rotinas na TI.</p>
             <div className="mt-4 grid sm:grid-cols-2 gap-4">
               <Feature icon={Star} title="Experiência prática" desc="Testes em sistemas web, API e mobile. Domina tecnologias como React, Flutter, Ruby on Rails, Java, HTML, CSS e JavaScript." />
-              <Feature icon={Cpu} title="Visão de carreira" desc="Mentora para transição de carreira em TI." />
+              <Feature icon={Cpu} title="Visão de carreira" desc="Percebi que muitos profissionais aprendem a executar testes, mas poucos aprendem a construir uma cultura de qualidade desde o início do projeto." />
             </div>
           </motion.div>
         </div>
