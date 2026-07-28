@@ -171,7 +171,7 @@ export default function LandingCursoTesteBasico() {
         </div>
       </section>
       <div className="max-w-6xl mx-auto px-4">
-      <a href="https://pay.hotmart.com/D93730200N"><Button className="w-full rounded-2xl mt-2">Comprar agora</Button></a>
+      <a href="https://pay.hotmart.com/D93730200N"><Button className="w-full rounded-2xl mt-2">Quero evoluir minha carreira</Button></a>
       </div>
  
       {/* Benefícios */}
