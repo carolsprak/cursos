@@ -314,7 +314,7 @@ export default function LandingCursoTesteBasico() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 items-start">
           <motion.div {...fadeUp} className="md:col-span-1">
             <h2 className="text-2xl md:text-3xl font-bold">Qual o diferencial do curso?</h2>
-            <p className="text-insprak-700 mt-2">Além de criar...<br/>
+            <p className="text-insprak-700 mt-2">Além de ...<br/>
               ✔ Criar cenários de teste<br/>
               ✔ Executar testes<br/>
               ✔ Reportar defeitos no Jira<br/>
