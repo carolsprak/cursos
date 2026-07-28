@@ -459,7 +459,7 @@ export default function LandingCursoTesteBasico() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8 text-sm">
           <div>
             <p className="font-bold text-lg text-insprak-900">Simplificando<b className="text-insprak-600"> Teste de Software</b></p>
-            <p className="text-insprak-700 mt-2">Formação para QA para quem quer evolunir na carreira.</p>
+            <p className="text-insprak-700 mt-2">Formação para QA para quem quer evoluir na carreira.</p>
           </div>          
           <div>
             <p className="font-semibold text-insprak-900">Links</p>
