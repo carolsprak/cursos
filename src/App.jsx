@@ -358,7 +358,7 @@ export default function LandingCursoTesteBasico() {
       <section id="matricula" className="py-16">
         <div className="max-w-6xl mx-auto px-4 grid lg:grid-cols-3 gap-6 items-start">
           <motion.div {...fadeUp} className="lg:col-span-2">
-            <h2 className="text-2xl md:text-3xl font-bold">Garanta sua vaga</h2> 
+            <h2 className="text-2xl md:text-3xl font-bold">Pense como um QA Experiente</h2> 
             <p className="text-insprak-700 mt-2"><b>Antes do curso</b></p>
             <p className="text-insprak-700 mt-2">"Vou esperar a funcionalidade ficar pronta para testar."</p> 
             <p className="text-insprak-700 mt-2">"A quantidade de bugs só aumenta e o time nem está corrigindo."</p>
@@ -368,7 +368,7 @@ export default function LandingCursoTesteBasico() {
             <div className="grid md:grid-cols-1 gap-6 mt-6">
               <Card className="rounded-2xl">
                 <CardHeader>
-                  <CardTitle className="text-xl">Torne-se o profissional que melhora a qualidade antes mesmo do desenvolvimento começar.</CardTitle>
+                  <CardTitle className="text-xl">Torne-se o profissional mais estratégico, que melhora a qualidade antes mesmo do desenvolvimento começar.</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 text-sm">
                   <div className="text-3xl font-black text-insprak-900">R$ 149</div>
