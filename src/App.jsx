@@ -297,17 +297,10 @@ export default function LandingCursoTesteBasico() {
                 <p>Carga horária: 5 h/sem dedicadas para atividades</p>
                 <p>Acesso: Vitalício na plataforma do Hotmart para rever quando quiser.</p>
                 <p>Materiais: PDFs, checklists, planilhas.</p>
+                <p>Certificado de conclusão com verificação por QRCode.</p>
+                <p>Critério para certificado: 100% das atividades do curso.</p>
               </CardContent>
-            </Card>
-            <Card className="rounded-2xl">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2"><ShieldCheck className="h-5 w-5 text-insprak-600" />Certificação</CardTitle>
-              </CardHeader>
-              <CardContent className="text-sm space-y-2 text-insprak-700">
-                <p>Certificado de conclusão com verificação por código.</p>
-                <p>Critério: 100% das atividades do curso.</p>
-              </CardContent>
-            </Card>
+            </Card>             
           </motion.div>
         </div>
       </section>
