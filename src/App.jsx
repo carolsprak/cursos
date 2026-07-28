@@ -33,7 +33,7 @@ const TESTIMONIALS = [
 // === Configurações de vídeo (YouTube) ===
 // Substitua a URL abaixo pelo link do seu vídeo do YouTube.
 // Ex.: https://www.youtube.com/watch?v=ysz5S6PUM-U ou https://youtu.be/ysz5S6PUM-U
-const YOUTUBE_URL = "https://www.youtube.com/watch?v=wsujJqjdJL8";
+const YOUTUBE_URL = "https://youtu.be/vUAYwbYYifM";
 
 // Extrai o ID do YouTube de vários formatos de URL
 const getYouTubeId = (url) => {
@@ -171,7 +171,7 @@ export default function LandingCursoTesteBasico() {
 </div>
 )}
 </div>
-<p className="text-6 text-center text-insprak-700 mt-2">Assista uma aula sobre Criar Roteiro de Teste</p>
+<p className="text-6 text-center text-insprak-700 mt-2">Teste estático: o primeiro passo que ninguém fala</p>
 </motion.div>
         </div>
       </section>
