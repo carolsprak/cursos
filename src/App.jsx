@@ -21,7 +21,7 @@ const TESTIMONIALS = [
   {
   name: "Jenifer Ferreira",
   role: "Aluna do curso",
-  quote: "Me ajudou a migrar de carreira como QA júnior.",
+  quote: "Me ajudou a migrar de carreira como QA júnior. Comecei do zero na área de TI hoje já participo de reuniões de refinamento, crio o BDD das histórias junto com o time e realizo inspeção na documentação.",
   },
   {
   name: "Tom Alves",
