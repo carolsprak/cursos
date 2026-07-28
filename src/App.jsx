@@ -184,7 +184,7 @@ export default function LandingCursoTesteBasico() {
       <section id="beneficios" className="py-14">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-6">
-            <Feature icon={PlayCircle} title="Shift-Left Testing" desc="Aprenda revisão de especificações com Inspeção PBR para evoluir para um QA mais estratégico." />
+            <Feature icon={PlayCircle} title="Shift Left Testing" desc="Aprenda revisão de especificações com Inspeção PBR para evoluir para um QA mais estratégico." />
             <Feature icon={Bug} title="Testes Manuais" desc="Roteiros de testes estratégicos com cenários mais críticos" />
             <Feature icon={Layers} title="Scrum, Jira & Confluence" desc="Entenda o papel do QA em processos ágeis." /> 
           </div>
@@ -200,7 +200,7 @@ export default function LandingCursoTesteBasico() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
            
             <ModuleItem title="Encontrando defeitos antes do código" topics={[
-              "Ao vivo: Técnicas de Shift-Left Testing",
+              "Ao vivo: Técnicas de Shift Left Testing",
               "Ao vivo: Revisar os critérios de aceite e BDD das user stories.",
               "Ao vivo: Revisão de Especificações usando Inspeção PBR",
               "Ao vivo: Identificar requisitos ambíguos ou inconsistentes",
