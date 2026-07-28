@@ -122,7 +122,7 @@ export default function LandingCursoTesteBasico() {
             <a href="#conteudo" className="hover:opacity-80">Conteúdo</a>
             <a href="#publico" className="hover:opacity-80">Para quem é?</a>
             <a href="#metodologia" className="hover:opacity-80">Metodologia</a>
-           <a href="#diferencial" className="hover:opacity-80">Qual o diferencial do curso?</a>
+           <a href="#diferencial" className="hover:opacity-80">Diferencial do curso</a>
             <a href="#instrutora" className="hover:opacity-80">Mentora</a>
             <a href="#matricula" className="hover:opacity-80">Matrícula</a>
           </nav>
