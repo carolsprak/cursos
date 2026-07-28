@@ -121,8 +121,7 @@ export default function LandingCursoTesteBasico() {
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <a href="#conteudo" className="hover:opacity-80">Conteúdo</a>
             <a href="#publico" className="hover:opacity-80">Para quem é?</a>
-            <a href="#metodologia" className="hover:opacity-80">Metodologia</a>
-           <a href="#diferencial" className="hover:opacity-80">Diferencial do curso</a>
+            <a href="#metodologia" className="hover:opacity-80">Metodologia</a> 
             <a href="#instrutora" className="hover:opacity-80">Mentora</a>
             <a href="#matricula" className="hover:opacity-80">Matrícula</a>
           </nav>
@@ -311,7 +310,7 @@ export default function LandingCursoTesteBasico() {
       </section>
 
      {/* Diferencial do curso */}
-      <section id="diferencial" className="py-16">
+      <section id="publico" className="py-16">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 items-start">
           <motion.div {...fadeUp} className="md:col-span-1">
             <h2 className="text-2xl md:text-3xl font-bold">Qual o diferencial do curso?</h2>
