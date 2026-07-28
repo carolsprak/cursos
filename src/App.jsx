@@ -250,7 +250,7 @@ export default function LandingCursoTesteBasico() {
             <p className="text-insprak-700 mt-2">Perfeito tanto para iniciantes quanto profissionais que já atuam em QA e desejam evoluir tecnicamente.</p>
           </motion.div>
           <div className="md:col-span-2 grid sm:grid-cols-2 gap-4">
-            <Feature icon={Laptop} title="QA Experiente" desc="Quer evoluir a carreira para um QA Sênior essencial nos projetos" /> 
+            <Feature icon={Laptop} title="Profissionais de QA" desc="Quer evoluir a carreira para um QA Sênior essencial nos projetos" /> 
             <Feature icon={GitBranch} title="QA Iniciante" desc="Para aprimorar o pensamento estratégico e se destacar na carreira." />
             <Feature icon={ClipboardCheck} title="Profissionais de TI" desc="Profissionais de TI que trabalham com engenharia de software" />
             <Feature icon={Smartphone} title="Pessoas de produto" desc="Profissionais de TI, POs, Agilistas, UX Design que desejam melhorar a qualidade das entregas." />
