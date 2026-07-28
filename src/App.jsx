@@ -198,6 +198,7 @@ export default function LandingCursoTesteBasico() {
            
             <ModuleItem title="Revisão de Especificações usando Inspeção PBR" topics={[
               "Evitar que os defeitos cheguem ao código",
+              "Ao vivo: Revisar os critérios de aceite e BDD das user stories.",
               "Ao vivo: Técnicas de Shift-Left Testing",
               "Ao vivo: Identificar requisitos ambíguos ou inconsistentes",
               "Ao vivo: Descobrir cenários esquecidos",
@@ -215,15 +216,10 @@ export default function LandingCursoTesteBasico() {
               "Ciclo de vida do bug",
               "Histórias de usuário, critérios de aceite",
               "Requisitos funcionais, não-funcionais e regras de negócio",
-            ]} />
-            <ModuleItem title="Processo e Artefatos" topics={[
-              "Ao vivo: Revisar os critérios de aceite e BDD das user stories.",
-              "Ao vivo: Roteiros de teste, cenários e casos de teste",
-              "Ao vivo: Como criar um roteiro de teste",
-            ]} />
+            ]} /> 
             <ModuleItem title="Cenários de Teste Estratégicos" topics={[
-              "Ao vivo: aplicar estratégias em roteiros de teste",
-              "Ao vivo: Estratégias e técnicas de teste baseadas em diagramas BPMN e Máquina de estados",      
+              "Ao vivo: Roteiros de teste, cenários e casos de teste", 
+              "Ao vivo: Técnicas de roteiro de teste baseadas em diagramas BPMN e Máquina de estados",      
               "Ao vivo: Partição de equivalência e análise de valor limite",
             ]} />
             <ModuleItem title="Execução e Relatórios" topics={[
