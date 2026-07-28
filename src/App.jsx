@@ -195,7 +195,21 @@ export default function LandingCursoTesteBasico() {
            
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-            <ModuleItem title="Fundamentos de QA" topics={[
+           
+            <ModuleItem title="Revisão de Especificações usando Inspeção PBR" topics={[
+              "Evitar que os defeitos cheguem ao código",
+              "Ao vivo: Técnicas de Shift-Left Testing",
+              "Ao vivo: Identificar requisitos ambíguos ou inconsistentes",
+              "Ao vivo: Descobrir cenários esquecidos",
+              "Aprimorar a qualidade ainda durante o Refinamento",
+            ]} />
+           <ModuleItem title="Testes de Software baseado em Métricas" topics={[
+              "Ao vivo: Exemplos práticos de Métricas em Teste de Software",
+              "Ao vivo: Estratégias de teste com base nas Métricas",
+              "Ao vivo: Priorização baseada em risco",
+              "Ao vivo: Pensamento crítico aplicado à qualidade",
+            ]} />
+           <ModuleItem title="Fundamentos de QA" topics={[
               "Fundamentos de testes manuais para sistemas web",
               "Tipos x níveis de teste",
               "Ciclo de vida do bug",
@@ -204,32 +218,25 @@ export default function LandingCursoTesteBasico() {
             ]} />
             <ModuleItem title="Processo e Artefatos" topics={[
               "Ao vivo: Revisar os critérios de aceite e BDD das user stories.",
-              "Roteiros de teste, cenários e casos de teste",
+              "Ao vivo: Roteiros de teste, cenários e casos de teste",
               "Ao vivo: Como criar um roteiro de teste",
-              
             ]} />
-            <ModuleItem title="Técnicas Essenciais" topics={[
+            <ModuleItem title="Cenários de Teste Estratégicos" topics={[
               "Ao vivo: aplicar estratégias em roteiros de teste",
-              "Partição de equivalência e análise de valor limite",
-              "Estratégias e técnicas de teste",             
-              
+              "Ao vivo: Estratégias e técnicas de teste baseadas em diagramas BPMN e Máquina de estados",      
+              "Ao vivo: Partição de equivalência e análise de valor limite",
             ]} />
             <ModuleItem title="Execução e Relatórios" topics={[
               "Ao vivo: Como executar testes",
-              "Como criar relatórios de defeitos claros",
-              "Acesso às ferramentas Jira e Confluence",
+              "Ao vivo: Como criar relatórios de defeitos claros",
+              "Ao vivo: Acesso às ferramentas Jira e Confluence",
             ]} />
             <ModuleItem title="Ferramentas" topics={[
               "Ao vivo: Documentação de testes no Jira/Confluence",
-              "Scrum: papéis e cerimônias na prática",
-              "Scrum: planejamento da sprint e retrospectiva",
-              
+              "Ao vivo: Scrum: papéis e cerimônias na prática",
+              "Ao vivo: Scrum: planejamento da sprint e retrospectiva",
             ]} />
-            <ModuleItem title="Carreira e Portfólio" topics={[
-              "Planilha de progresso com atividades do curso",
-              "Dicas para se preparar para o mercado",
-              "Métricas em Teste de Software",
-            ]} />
+            
           </div>
         </div>
       </section>
@@ -242,10 +249,10 @@ export default function LandingCursoTesteBasico() {
             <p className="text-insprak-700 mt-2">Perfeito para iniciantes e profissionais migrando de outras áreas que querem resultados práticos rapidamente.</p>
           </motion.div>
           <div className="md:col-span-2 grid sm:grid-cols-2 gap-4">
-            <Feature icon={Laptop} title="Quem está começando" desc="Primeiro contato com QA e testes, sem pré-requisitos de programação." />
+            <Feature icon={Laptop} title="QA Júnior/Pleno" desc="Quer evoluir a carreira para QA Pleno/Sênior" />
             <Feature icon={Smartphone} title="Pessoas de produto" desc="POs, Agilistas, UX Design que desejam melhorar a qualidade das entregas." />
-            <Feature icon={GitBranch} title="QA júnior" desc="Analistas de teste que querem aprimorar sua carreira como QA." />
-            <Feature icon={ClipboardCheck} title="Profissionais de TI" desc="Profissionais que lidam com sistemas e precisam compreender processos ágeis." />
+            <Feature icon={GitBranch} title="Migração para Carreira TI" desc="Primeiro contato com QA e testes, sem pré-requisitos de programação." />
+            <Feature icon={ClipboardCheck} title="Profissionais de TI" desc="Profissionais de TI que trabalham com engenharia de software" />
           </div>
         </div>
       </section>
