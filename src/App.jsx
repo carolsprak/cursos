@@ -125,7 +125,7 @@ export default function LandingCursoTesteBasico() {
             <a href="#instrutora" className="hover:opacity-80">Mentora</a>
             <a href="#matricula" className="hover:opacity-80">Matrícula</a>
           </nav>
-          <a href="#matricula" className="md:inline-block hidden"><Button className="rounded-2xl">Inscreva-se</Button></a>
+          <a href="#matricula" className="md:inline-block hidden"><Button className="rounded-2xl">Quero evoluir minha carreira</Button></a>
         </div>
       </header>
 
@@ -143,9 +143,9 @@ export default function LandingCursoTesteBasico() {
              
             {/* Stats */}
             <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm">
-              <div className="flex items-center gap-2 text-insprak-800"><Clock className="h-6 w-6 text-insprak-600" /> 20h+ de aulas gravadas</div>
               <div className="flex items-center gap-2 text-insprak-800"><GraduationCap className="h-6 w-6 text-insprak-600" /> Certificado</div>
               <div className="flex items-center gap-2 text-insprak-800"><Users className="h-6 w-6 text-insprak-600" /> 5 mentorias ao vivo</div>
+              <div className="flex items-center gap-2 text-insprak-800"><Clock className="h-6 w-6 text-insprak-600" /> Aulas gravadas</div>
             </div>
           </motion.div>
           <motion.div {...fadeUp} className="relative">
@@ -178,7 +178,7 @@ export default function LandingCursoTesteBasico() {
       <section id="beneficios" className="py-14">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-6">
-            <Feature icon={PlayCircle} title="Aulas Gravadas + Ao vivo" desc="Assista no seu ritmo e revise quando quiser." />
+            <Feature icon={PlayCircle} title="Shift-Left Testing" desc="Revisão de especificações com Inspeção PBR." />
             <Feature icon={Bug} title="Testes Manuais" desc="Foco em fundamentos e prática guiada." />
             <Feature icon={Layers} title="Scrum" desc="Entenda o papel do QA em times ágeis." />
             <Feature icon={FileCheck2} title="Jira & Confluence" desc="Organize casos, defeitos e documentação." />
@@ -206,7 +206,7 @@ export default function LandingCursoTesteBasico() {
             ]} />
            <ModuleItem title="Testes de Software baseado em Métricas" topics={[
               "Ao vivo: Exemplos práticos de Métricas em Teste de Software",
-              "Ao vivo: Estratégias de teste com base nas Métricas",
+              "Ao vivo: Tomadas de decisão com base nas Métricas",
               "Ao vivo: Priorização baseada em risco",
               "Ao vivo: Pensamento crítico aplicado à qualidade",
             ]} />
@@ -275,6 +275,19 @@ export default function LandingCursoTesteBasico() {
             </ul>
           </motion.div>
           <motion.div {...fadeUp} className="lg:col-span-2 grid md:grid-cols-2 gap-4">
+           <Card className="rounded-2xl">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2"><Clock className="h-5 w-5 text-insprak-600" />O que você será capaz de fazer?</CardTitle>
+              </CardHeader>
+              <CardContent className="text-sm space-y-2 text-insprak-700">
+                <p>Encontrar problemas antes do desenvolvimento</p> 
+                <p>Melhorar histórias de usuário</p>
+                <p>Participar de refinamentos de forma técnica</p>
+                <p>Criar estratégias de teste para diferentes cenários</p>
+                <p>Utilizar métricas para tomada de decisão</p>
+                <p>Gerar mais valor para Product Owner e Desenvolvedores</p>
+              </CardContent>
+            </Card>
             <Card className="rounded-2xl">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2"><Clock className="h-5 w-5 text-insprak-600" />Formato</CardTitle>
@@ -282,7 +295,7 @@ export default function LandingCursoTesteBasico() {
               <CardContent className="text-sm space-y-2 text-insprak-700">
                 <p>Aulas gravadas + 5 encontros ao vivo.</p> 
                 <p>Carga horária: 5 h/sem dedicadas para atividades</p>
-                <p>Acesso: 12 meses para rever quando quiser.</p>
+                <p>Acesso: Vitalício na plataforma do Hotmart para rever quando quiser.</p>
                 <p>Materiais: PDFs, checklists, planilhas.</p>
               </CardContent>
             </Card>
@@ -309,7 +322,7 @@ export default function LandingCursoTesteBasico() {
           </motion.div>
           <motion.div {...fadeUp}>
             <h2 className="text-2xl md:text-3xl font-bold">Sobre a Mentora</h2>
-            <p className="text-insprak-700 mt-2">Mestre em Ciência da Computação e referência em Qualidade de Software, com mais de 18 anos de carreira, certificação BSTQB e autora do livro “Simplificando Teste de Software”. Desde 2012, ensina em pós-graduação e formações em TI, unindo teoria e prática em Web e Mobile (React, Flutter, Rails, Java, HTML/CSS/JS). Apaixonada por ensinar, ajuda iniciantes e profissionais a evoluírem em Testes de Software, acreditando que qualidade transforma carreiras e rotinas na TI.</p>
+            <p className="text-insprak-700 mt-2">Tech Lead QA. Mestre em Ciência da Computação e referência em Qualidade de Software, com mais de 18 anos de carreira, certificação BSTQB (CTFL-AT) e autora do livro “Simplificando Teste de Software”. Desde 2012, ensina em pós-graduação e formações em TI, unindo teoria e prática em Web e Mobile (React, Flutter, Rails, Java, HTML/CSS/JS). Apaixonada por ensinar, ajuda iniciantes e profissionais a evoluírem em Testes de Software, acreditando que qualidade transforma carreiras e rotinas na TI.</p>
             <div className="mt-4 grid sm:grid-cols-2 gap-4">
               <Feature icon={Star} title="Experiência prática" desc="Testes em sistemas web, API e mobile. Domina tecnologias como React, Flutter, Ruby on Rails, Java, HTML, CSS e JavaScript." />
               <Feature icon={Cpu} title="Visão de carreira" desc="Mentora para transição de carreira em TI." />
@@ -359,11 +372,11 @@ export default function LandingCursoTesteBasico() {
                 <CardContent className="space-y-3 text-sm">
                   <div className="text-3xl font-black text-insprak-900">R$ 149</div>
                   <ul className="space-y-2">
-                    {["Acesso às aulas gravadas", "5 aulas ao vivo", "Atividades práticas", "Certificado"].map((t, i) => (
+                    {["Acesso vitalício", "5 mentorias ao vivo", "Exercícios práticos em projeto", "Certificado"].map((t, i) => (
                       <li key={i} className="flex items-start gap-2 text-insprak-800"><CheckCircle2 className="h-5 w-5 mt-0.5 text-insprak-600" /> {t}</li>
                     ))}
                   </ul>
-                  <a href="https://pay.hotmart.com/D93730200N"><Button className="w-full rounded-2xl mt-2">Comprar agora</Button></a>
+                  <a href="https://pay.hotmart.com/D93730200N"><Button className="w-full rounded-2xl mt-2">Quero evoluir minha carreira</Button></a>
                 </CardContent>
               </Card>
 
@@ -377,7 +390,7 @@ export default function LandingCursoTesteBasico() {
             <div className="mt-4 space-y-4 text-sm">
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Estou em transição de carreira</summary>
-                <p className="mt-2 text-insprak-700">O curso foi pensado para atender pessoas iniciantes do zero, pois teremos acompanhamento semanal.</p>
+                <p className="mt-2 text-insprak-700">O curso foi pensado para atender pessoas que querem evoluir como QA ou iniciantes do zero, pois teremos acompanhamento semanal em grupo.</p>
               </details>
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Qual o horário das mentorias ao vivo?</summary>
@@ -385,11 +398,11 @@ export default function LandingCursoTesteBasico() {
               </details>
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Preciso saber programar?</summary>
-                <p className="mt-2 text-insprak-700">Não. O curso é introdutório e foca em testes manuais e fundamentos.</p>
+                <p className="mt-2 text-insprak-700">Não. O curso além de introdutório com foco em testes manuais, também aborda técnicas e estratégias de teste com base em métricas.</p>
               </details>
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Este curso ensina automação de teste?</summary>
-                <p className="mt-2 text-insprak-700">Não. O curso foca em testes manuais para applicações WEB.</p>
+                <p className="mt-2 text-insprak-700">Não. O curso foca em revisão de especificação, testes manuais estratégicos para applicações WEB e criação de métricas.</p>
               </details>
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Não consigo assistir ao vivo</summary>
@@ -401,7 +414,7 @@ export default function LandingCursoTesteBasico() {
               </details>
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Por quanto tempo tenho acesso?</summary>
-                <p className="mt-2 text-insprak-700">12 meses a partir da compra.</p>
+                <p className="mt-2 text-insprak-700">Vitalício na plataforma do Hotmart.</p>
               </details>
             </div>
           </motion.div>
