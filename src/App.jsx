@@ -14,17 +14,17 @@ const MENTORA = mentora;
 // === Depoimentos (edite os nomes/roles/quotes aqui) ===
 const TESTIMONIALS = [
   {
-  name: "R. Queiroz",
+  name: "Raquel Queiroz",
   role: "Aluna do curso",
   quote: "O Conteúdo, muito bem explicado e as tarefas com a participação de toda a turma, simulando o ambiente real de trabalho.",
   },
   {
-  name: "J. Ferreira",
+  name: "Jenifer Ferreira",
   role: "Aluna do curso",
   quote: "Me ajudou a migrar como QA júnior.",
   },
   {
-  name: "W. Alves",
+  name: "Tom Alves",
   role: "Aluno do curso",
   quote: "Foi um curso muito completo. Agregou muito no meu aprendizado. Professora Anne Rocha sabe conduzir as aulas de forma que prende a atenção e desperta interesse pelo conteúdo.",
   },
@@ -136,10 +136,10 @@ export default function LandingCursoTesteBasico() {
           <motion.div {...fadeUp}>
             <div className="inline-flex items-center gap-2 text-5 px-3 py-1 rounded-full border border-insprak-300 mb-4 text-insprak-700">
               <Rocket className="h-5 w-5 text-insprak-600" />
-              Comece sua carreira em QA do zero
+              Evolua sua carreira como QA
             </div>
-            <h1 className="text-3xl md:text-5xl font-black leading-tight">Curso Básico de <span className=" decoration-wavy decoration-insprakAccent">Teste de Software</span></h1>
-            <p className="mt-4 text-lg text-insprak-700 max-w-xl">Aprenda os fundamentos de QA, escreva seus primeiros casos de teste, entenda a diferença entre tipos e níveis de testes e valide software com confiança.</p>
+            <h1 className="text-3xl md:text-5xl font-black leading-tight">Curso de Formação <span className=" decoration-wavy decoration-insprakAccent">e Evolução de Carreira QA</span></h1>
+            <p className="mt-4 text-lg text-insprak-700 max-w-xl">Pare de apenas executar testes. Aprenda a influenciar a qualidade do software antes da primeira linha de código. Um treinamento para QAs que desejam evoluir da execução de testes para a definição de estratégias, revisão de especificações e tomada de decisões baseada em métricas.</p>
              
             {/* Stats */}
             <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm">
