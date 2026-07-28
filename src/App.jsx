@@ -383,6 +383,13 @@ export default function LandingCursoTesteBasico() {
           <motion.div {...fadeUp} className="bg-white rounded-2xl border border-insprak-200 shadow-sm p-6">
             <h3 className="text-xl font-semibold">Perguntas frequentes</h3>
             <div className="mt-4 space-y-4 text-sm">
+             <details className="group border border-insprak-200 rounded-xl p-4">
+                <summary className="font-medium cursor-pointer">Esse curso serve para quem já trabalha como QA?</summary>
+                <p className="mt-2 text-insprak-700">Sim. As atividades práticas exigem uma análise mais crítica do negócio. 
+                 Apesar de abordar fundamentos importantes, o maior diferencial do treinamento está nas práticas de revisão de especificações usando Inspeção PBR, 
+                 métricas de teste e construção de estratégias de qualidade, conteúdos normalmente pouco explorados em cursos introdutórios.
+                </p>
+              </details>
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Estou em transição de carreira</summary>
                 <p className="mt-2 text-insprak-700">O curso foi pensado para atender pessoas que querem evoluir como QA ou iniciantes do zero, pois teremos acompanhamento semanal em grupo.</p>
@@ -400,11 +407,7 @@ export default function LandingCursoTesteBasico() {
                 <p className="mt-2 text-insprak-700">Não. O foco está em desenvolver capacidade analítica, revisão de especificações, métricas e estratégias de teste.
                 </p>
               </details>
-             <details className="group border border-insprak-200 rounded-xl p-4">
-                <summary className="font-medium cursor-pointer">Esse curso vai me ajudar a evoluir na carreira?</summary>
-                <p className="mt-2 text-insprak-700">Sim. As atividades práticas exigem uma análise mais crítica do negócio que são desempenhadas por profissionais mais experientes.
-                </p>
-              </details>
+             
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Não consigo assistir ao vivo</summary>
                 <p className="mt-2 text-insprak-700">Caso não possa participar da mentoria ao vivo, você terá acesso à gravação da aula da sua turma.</p>
