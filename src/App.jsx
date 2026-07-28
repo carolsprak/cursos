@@ -138,7 +138,7 @@ export default function LandingCursoTesteBasico() {
               <Rocket className="h-5 w-5 text-insprak-600" />
               Evolua sua carreira como QA
             </div>
-            <h1 className="text-3xl md:text-5xl font-black leading-tight">Curso de Formação <span className=" decoration-wavy decoration-insprakAccent">e Evolução de Carreira QA</span></h1>
+            <h1 className="text-3xl md:text-5xl font-black leading-tight">Curso de Formação <span className=" decoration-wavy decoration-insprakAccent">e Evolução na Carreira QA</span></h1>
             <p className="mt-4 text-lg text-insprak-700 max-w-xl">Pare de apenas executar testes. 
              Os melhores QAs não são reconhecidos porque encontram mais bugs. 
              São reconhecidos porque ajudam o time a construir software com menos defeitos desde a especificação.</p>          
