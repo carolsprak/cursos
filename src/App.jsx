@@ -362,8 +362,7 @@ export default function LandingCursoTesteBasico() {
         <div className="max-w-6xl mx-auto px-4 grid lg:grid-cols-3 gap-6 items-start">
           <motion.div {...fadeUp} className="lg:col-span-2">
             <h2 className="text-2xl md:text-3xl font-bold">Garanta sua vaga</h2>
-            <p className="text-insprak-700 mt-2">Faça parte da nova turma.
-             Parcelamento disponível no cartão.</p>
+            <p className="text-insprak-700 mt-2">Torne-se o profissional que melhora a qualidade antes mesmo do desenvolvimento começar.</p>
             <div className="grid md:grid-cols-1 gap-6 mt-6">
               <Card className="rounded-2xl">
                 <CardHeader>
@@ -402,7 +401,13 @@ export default function LandingCursoTesteBasico() {
               </details>
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Este curso ensina automação de teste?</summary>
-                <p className="mt-2 text-insprak-700">Não. O curso foca em revisão de especificação, testes manuais estratégicos para applicações WEB e criação de métricas.</p>
+                <p className="mt-2 text-insprak-700">Não. O foco está em desenvolver capacidade analítica, revisão de especificações, métricas e estratégias de teste.
+                </p>
+              </details>
+             <details className="group border border-insprak-200 rounded-xl p-4">
+                <summary className="font-medium cursor-pointer">Esse curso vai me ajudar a evoluir na carreira?</summary>
+                <p className="mt-2 text-insprak-700">Sim. As atividades práticas exigem uma análise mais crítica do negócio que são desempenhadas por profissionais mais experientes.
+                </p>
               </details>
               <details className="group border border-insprak-200 rounded-xl p-4">
                 <summary className="font-medium cursor-pointer">Não consigo assistir ao vivo</summary>
