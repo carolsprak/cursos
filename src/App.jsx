@@ -196,10 +196,10 @@ export default function LandingCursoTesteBasico() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
            
-            <ModuleItem title="Revisão de Especificações usando Inspeção PBR" topics={[
+            <ModuleItem title="Técnicas de Shift-Left Testing" topics={[
               "Evitar que os defeitos cheguem ao código",
               "Ao vivo: Revisar os critérios de aceite e BDD das user stories.",
-              "Ao vivo: Técnicas de Shift-Left Testing",
+              "Ao vivo: Revisão de Especificações usando Inspeção PBR",
               "Ao vivo: Identificar requisitos ambíguos ou inconsistentes",
               "Ao vivo: Descobrir cenários esquecidos",
               "Aprimorar a qualidade ainda durante o Refinamento",
