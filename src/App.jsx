@@ -359,6 +359,12 @@ export default function LandingCursoTesteBasico() {
           <motion.div {...fadeUp} className="lg:col-span-2">
             <h2 className="text-2xl md:text-3xl font-bold">Garanta sua vaga</h2>
             <p className="text-insprak-700 mt-2">Torne-se o profissional que melhora a qualidade antes mesmo do desenvolvimento começar.</p>
+            <p className="text-insprak-700 mt-2"><b>Antes do curso</b></p>
+            <p className="text-insprak-700 mt-2">"Vou esperar a funcionalidade ficar pronta para testar."</p> 
+            <p className="text-insprak-700 mt-2">"A quantidade de bugs só aumenta e o time nem está corrigindo."</p>
+            <p className="text-insprak-700 mt-2"><b>Depois do curso</b></p>            
+            <p className="text-insprak-700 mt-2">"Já encontrei três inconsistências na especificação antes do desenvolvimento começar."</p>
+            <p className="text-insprak-700 mt-2">"Quase não temos incidentes em produção, a equipe agora tem o foco em qualidade."</p>
             <div className="grid md:grid-cols-1 gap-6 mt-6">
               <Card className="rounded-2xl">
                 <CardHeader>
