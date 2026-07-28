@@ -141,8 +141,8 @@ export default function LandingCursoTesteBasico() {
             <h1 className="text-3xl md:text-5xl font-black leading-tight">Curso de Formação <span className=" decoration-wavy decoration-insprakAccent">e Evolução de Carreira QA</span></h1>
             <p className="mt-4 text-lg text-insprak-700 max-w-xl">Pare de apenas executar testes. 
              Os melhores QAs não são reconhecidos porque encontram mais bugs. 
-             São reconhecidos porque ajudam o time a construir software com menos defeitos desde a especificação.             
-             Aprenda a influenciar a qualidade do software antes da primeira linha de código. 
+             São reconhecidos porque ajudam o time a construir software com menos defeitos desde a especificação.</p>          
+             <p className="mt-4 text-lg text-insprak-700 max-w-xl">Aprenda a influenciar a qualidade do software antes da primeira linha de código. 
              Um treinamento para QAs que desejam evoluir da execução de testes para a definição de estratégias, 
              revisão de especificações e tomada de decisões baseada em métricas.</p>
              
