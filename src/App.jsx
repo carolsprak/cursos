@@ -139,7 +139,12 @@ export default function LandingCursoTesteBasico() {
               Evolua sua carreira como QA
             </div>
             <h1 className="text-3xl md:text-5xl font-black leading-tight">Curso de Formação <span className=" decoration-wavy decoration-insprakAccent">e Evolução de Carreira QA</span></h1>
-            <p className="mt-4 text-lg text-insprak-700 max-w-xl">Pare de apenas executar testes. Aprenda a influenciar a qualidade do software antes da primeira linha de código. Um treinamento para QAs que desejam evoluir da execução de testes para a definição de estratégias, revisão de especificações e tomada de decisões baseada em métricas.</p>
+            <p className="mt-4 text-lg text-insprak-700 max-w-xl">Pare de apenas executar testes. 
+             Os melhores QAs não são reconhecidos porque encontram mais bugs. 
+             São reconhecidos porque ajudam o time a construir software com menos defeitos desde a especificação.             
+             Aprenda a influenciar a qualidade do software antes da primeira linha de código. 
+             Um treinamento para QAs que desejam evoluir da execução de testes para a definição de estratégias, 
+             revisão de especificações e tomada de decisões baseada em métricas.</p>
              
             {/* Stats */}
             <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4 text-sm">
@@ -178,12 +183,9 @@ export default function LandingCursoTesteBasico() {
       <section id="beneficios" className="py-14">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-6">
-            <Feature icon={PlayCircle} title="Shift-Left Testing" desc="Revisão de especificações com Inspeção PBR." />
-            <Feature icon={Bug} title="Testes Manuais" desc="Foco em fundamentos e prática guiada." />
-            <Feature icon={Layers} title="Scrum" desc="Entenda o papel do QA em times ágeis." />
-            <Feature icon={FileCheck2} title="Jira & Confluence" desc="Organize casos, defeitos e documentação." />
-            <Feature icon={Users} title="5 Mentorias ao vivo" desc="Encontros estratégicos para tirar dúvidas e praticar." />
-            <Feature icon={ShieldCheck} title="Certificado" desc="Conclua o curso e receba seu certificado." />
+            <Feature icon={PlayCircle} title="Shift-Left Testing" desc="Aprenda revisão de especificações com Inspeção PBR para evoluir para um QA mais estratégico." />
+            <Feature icon={Bug} title="Testes Manuais" desc="Roteiros de testes estratégicos com cenários mais críticos" />
+            <Feature icon={Layers} title="Scrum, Jira & Confluence" desc="Entenda o papel do QA em processos ágeis." /> 
           </div>
         </div>
       </section>
@@ -196,33 +198,33 @@ export default function LandingCursoTesteBasico() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
            
-            <ModuleItem title="Técnicas de Shift-Left Testing" topics={[
-              "Evitar que os defeitos cheguem ao código",
+            <ModuleItem title="Encontrando defeitos antes do código" topics={[
+              "Ao vivo: Técnicas de Shift-Left Testing",
               "Ao vivo: Revisar os critérios de aceite e BDD das user stories.",
               "Ao vivo: Revisão de Especificações usando Inspeção PBR",
               "Ao vivo: Identificar requisitos ambíguos ou inconsistentes",
               "Ao vivo: Descobrir cenários esquecidos",
               "Aprimorar a qualidade ainda durante o Refinamento",
             ]} />
-           <ModuleItem title="Testes de Software baseado em Métricas" topics={[
+           <ModuleItem title="Decisões baseadas em Métricas" topics={[
               "Ao vivo: Exemplos práticos de Métricas em Teste de Software",
               "Ao vivo: Tomadas de decisão com base nas Métricas",
               "Ao vivo: Priorização baseada em risco",
               "Ao vivo: Pensamento crítico aplicado à qualidade",
             ]} />
-           <ModuleItem title="Fundamentos de QA" topics={[
+           <ModuleItem title="Pensamento Estratégico em QA" topics={[
               "Fundamentos de testes manuais para sistemas web",
               "Tipos x níveis de teste",
               "Ciclo de vida do bug",
               "Histórias de usuário, critérios de aceite",
               "Requisitos funcionais, não-funcionais e regras de negócio",
             ]} /> 
-            <ModuleItem title="Cenários de Teste Estratégicos" topics={[
-              "Ao vivo: Roteiros de teste, cenários e casos de teste", 
+            <ModuleItem title="Construção inteligente de cenários" topics={[
+              "Ao vivo: Roteiros de teste, cenários e casos de teste que realmente encontram bugs", 
               "Ao vivo: Técnicas de roteiro de teste baseadas em diagramas BPMN e Máquina de estados",      
               "Ao vivo: Partição de equivalência e análise de valor limite",
             ]} />
-            <ModuleItem title="Execução e Relatórios" topics={[
+            <ModuleItem title="Classificação e priorização de defeitos" topics={[
               "Ao vivo: Como executar testes",
               "Ao vivo: Como criar relatórios de defeitos detalhados",
               "Ao vivo: Como classificar e priorizar os bugs",
@@ -247,10 +249,10 @@ export default function LandingCursoTesteBasico() {
             <p className="text-insprak-700 mt-2">Perfeito tanto para iniciantes quanto profissionais que já atuam em QA e desejam evoluir tecnicamente.</p>
           </motion.div>
           <div className="md:col-span-2 grid sm:grid-cols-2 gap-4">
-            <Feature icon={Laptop} title="QA Júnior/Pleno" desc="Quer evoluir a carreira para QA Pleno/Sênior" />
-            <Feature icon={Smartphone} title="Pessoas de produto" desc="POs, Agilistas, UX Design que desejam melhorar a qualidade das entregas." />
-            <Feature icon={GitBranch} title="Migração para Carreira TI" desc="Primeiro contato com QA e testes, sem pré-requisitos de programação." />
+            <Feature icon={Laptop} title="QA Experiente" desc="Quer evoluir a carreira para um QA Sênior essencial nos projetos" /> 
+            <Feature icon={GitBranch} title="QA Iniciante" desc="Para aprimorar o pensamento estratégico e se destacar na carreira." />
             <Feature icon={ClipboardCheck} title="Profissionais de TI" desc="Profissionais de TI que trabalham com engenharia de software" />
+            <Feature icon={smartphone} title="Pessoas de produto" desc="Profissionais de TI, POs, Agilistas, UX Design que desejam melhorar a qualidade das entregas." />
           </div>
         </div>
       </section>
