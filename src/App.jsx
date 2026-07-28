@@ -16,12 +16,12 @@ const TESTIMONIALS = [
   {
   name: "Raquel Queiroz",
   role: "Aluna do curso",
-  quote: "O Conteúdo, muito bem explicado e as tarefas com a participação de toda a turma, simulando o ambiente real de trabalho.",
+  quote: "O Conteúdo, muito bem explicado e as tarefas com a participação de toda a turma, simulando o ambiente real de trabalho. Consegui evoluir para QA Pleno.",
   },
   {
   name: "Jenifer Ferreira",
   role: "Aluna do curso",
-  quote: "Me ajudou a migrar como QA júnior.",
+  quote: "Me ajudou a migrar de carreira como QA júnior.",
   },
   {
   name: "Tom Alves",
@@ -172,7 +172,7 @@ export default function LandingCursoTesteBasico() {
 </div>
 )}
 </div>
-<p className="text-6 text-center text-insprak-700 mt-2">Teste estático: o primeiro passo que ninguém fala</p>
+<p className="text-6 text-center text-insprak-700 mt-2">Curso para evolução na carreira como QA</p>
 </motion.div>
         </div>
       </section>
