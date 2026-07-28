@@ -475,7 +475,7 @@ export default function LandingCursoTesteBasico() {
 
       <div className="mt-6 flex flex-wrap items-center gap-3">
       <a href={BOOK_LINK} target="_blank" rel="noreferrer">
-      <Button size="lg" className="rounded-2xl">Comprar livro</Button>
+      <Button size="lg" className="rounded-2xl">Adquirir o livro</Button>
       </a>
       <a href={BOOK_SAMPLE_LINK} target="_blank" rel="noreferrer">
       <Button variant="outline" size="lg" className="rounded-2xl">Ver amostra</Button>
