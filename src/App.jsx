@@ -136,9 +136,10 @@ export default function LandingCursoTesteBasico() {
           <motion.div {...fadeUp}>
             <div className="inline-flex items-center gap-2 text-5 px-3 py-1 rounded-full border border-insprak-300 mb-4 text-insprak-700">
               <Rocket className="h-5 w-5 text-insprak-600" />
-              Evolua sua carreira como QA
+              Curso de formação em TI
             </div>
-            <h1 className="text-3xl md:text-5xl font-black leading-tight"><span className=" decoration-wavy decoration-insprakAccent">Evolução de Carreira QA</span>Da execução de testes à estratégia de qualidade</h1>
+            <h1 className="text-3xl md:text-5xl font-black leading-tight">
+             <span className=" decoration-wavy decoration-insprakAccent">Evolua sua Carreira como QA</span></h1>
             <p className="mt-4 text-lg text-insprak-700 max-w-xl">Pare de apenas executar testes. 
              Os melhores QAs não são reconhecidos porque encontram mais bugs. 
              São reconhecidos porque ajudam o time a construir software com menos defeitos desde a especificação.</p>          
