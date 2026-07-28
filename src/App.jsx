@@ -33,7 +33,7 @@ const TESTIMONIALS = [
 // === Configurações de vídeo (YouTube) ===
 // Substitua a URL abaixo pelo link do seu vídeo do YouTube.
 // Ex.: https://www.youtube.com/watch?v=ysz5S6PUM-U ou https://youtu.be/ysz5S6PUM-U
-const YOUTUBE_URL = "https://www.youtube.com/watch?v=vUAYwbYYifM";
+const YOUTUBE_URL = "https://www.youtube.com/watch?v=9UGdpJqywAc";
 
 // Extrai o ID do YouTube de vários formatos de URL
 const getYouTubeId = (url) => {
