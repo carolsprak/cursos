@@ -122,6 +122,7 @@ export default function LandingCursoTesteBasico() {
             <a href="#conteudo" className="hover:opacity-80">Conteúdo</a>
             <a href="#publico" className="hover:opacity-80">Para quem é?</a>
             <a href="#metodologia" className="hover:opacity-80">Metodologia</a>
+           <a href="#diferencial" className="hover:opacity-80">Qual o diferencial do curso?</a>
             <a href="#instrutora" className="hover:opacity-80">Mentora</a>
             <a href="#matricula" className="hover:opacity-80">Matrícula</a>
           </nav>
@@ -306,6 +307,26 @@ export default function LandingCursoTesteBasico() {
               </CardContent>
             </Card>             
           </motion.div>
+        </div>
+      </section>
+
+     {/* Diferencial do curso */}
+      <section id="diferencial" className="py-16">
+        <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 items-start">
+          <motion.div {...fadeUp} className="md:col-span-1">
+            <h2 className="text-2xl md:text-3xl font-bold">Qual o diferencial do curso?</h2>
+            <p className="text-insprak-700 mt-2">Além de criar...<br/>
+              ✔ Criar cenários de teste<br/>
+              ✔ Executar testes<br/>
+              ✔ Reportar defeitos no Jira<br/>
+              Neste curso você aprenderá também....</p>
+          </motion.div>
+          <div className="md:col-span-2 grid sm:grid-cols-2 gap-4">
+            <Feature icon={Laptop} title="Shift left na prática" desc="Utilizar a inspeção PBR para identificar insconsistências na especificação" /> 
+            <Feature icon={GitBranch} title="Estratégias de teste" desc="Construção inteligente de cenários de teste" />
+            <Feature icon={ClipboardCheck} title="Pensamento crítico" desc="Participar de refinamentos de histórias com mais precisão" />
+            <Feature icon={Smartphone} title="Métricas de teste" desc="Decisões estratégicas baseadas em Métricas" />
+          </div>
         </div>
       </section>
 
