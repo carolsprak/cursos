@@ -14,17 +14,17 @@ const MENTORA = mentora;
 // === Depoimentos (edite os nomes/roles/quotes aqui) ===
 const TESTIMONIALS = [
   {
-  name: "Raquel Queiroz",
+  name: "R. Queiroz",
   role: "Aluna do curso",
   quote: "O Conteúdo, muito bem explicado e as tarefas com a participação de toda a turma, simulando o ambiente real de trabalho. Consegui evoluir para QA Pleno.",
   },
   {
-  name: "Jenifer Ferreira",
+  name: "J. Ferreira",
   role: "Aluna do curso",
   quote: "Me ajudou a migrar de carreira como QA júnior. Comecei do zero na área de TI hoje já participo de reuniões de refinamento, crio o BDD das histórias junto com o time e realizo inspeção na documentação.",
   },
   {
-  name: "Tom Alves",
+  name: "T. Alves",
   role: "Aluno do curso",
   quote: "Foi um curso muito completo. Agregou muito no meu aprendizado. Professora Anne Rocha sabe conduzir as aulas de forma que prende a atenção e desperta interesse pelo conteúdo.",
   },
