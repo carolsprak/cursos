@@ -282,7 +282,7 @@ export default function LandingCursoTesteBasico() {
               <CardContent className="text-sm space-y-2 text-insprak-700">
                 <p>Encontrar problemas antes do desenvolvimento</p> 
                 <p>Melhorar histórias de usuário</p>
-                <p>Participar de refinamentos de forma técnica</p>
+                <p>Participar de refinamentos com olhar mais crítico</p>
                 <p>Criar estratégias de teste para diferentes cenários</p>
                 <p>Utilizar métricas para tomada de decisão</p>
                 <p>Gerar mais valor para Product Owner e Desenvolvedores</p>
