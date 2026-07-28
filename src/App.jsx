@@ -231,10 +231,11 @@ export default function LandingCursoTesteBasico() {
               "Ao vivo: Como criar relatórios de defeitos claros",
               "Ao vivo: Acesso às ferramentas Jira e Confluence",
             ]} />
-            <ModuleItem title="Ferramentas" topics={[
+            <ModuleItem title="Ferramentas e Carreira" topics={[
               "Ao vivo: Documentação de testes no Jira/Confluence",
               "Ao vivo: Scrum: papéis e cerimônias na prática",
               "Ao vivo: Scrum: planejamento da sprint e retrospectiva",
+              "Ao vivo: Dicas para evoluir na carreira",
             ]} />
             
           </div>
