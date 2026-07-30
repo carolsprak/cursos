@@ -393,7 +393,7 @@ export default function LandingCursoTesteBasico() {
             <div className="grid md:grid-cols-1 gap-6 mt-6">
               <Card className="rounded-2xl">
                 <CardHeader>
-                  <CardTitle className="text-xl">Torne-se o profissional que agrega mais valor para o time antes mesmo da implementação começar.</CardTitle>
+                  <CardTitle className="text-xl">Torne-se o profissional que agrega mais valor para o time</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 text-sm">
                   <div className="text-3xl font-black text-insprak-900">R$ 149</div>
