@@ -129,14 +129,7 @@ export default function LandingCursoTesteBasico() {
         </div>
       </header>
      
-     {/* Hero */}
-      <section id="cursos" >
-        <div className="max-w-6xl mx-auto px-2 py-16 md:py-18 grid md:grid-cols-3 gap-10 items-center">
-          <a href="#home"><Button className="w-full rounded-2xl mt-2">Curso Básico de Teste de Software</Button></a>
-          <a href="https://www.simplificandoteste.com.br/curso_teste_manual_mobile/"><Button className="w-full rounded-2xl mt-2">Curso de Testes para Aplicativos Móveis</Button></a>
-          <a href="https://www.udemy.com/course/git-e-github-do-zero-aprenda-versionamento-de-forma-simples/" target="_blank"><Button className="w-full rounded-2xl mt-2">Curso de Básico de Git e GitHub</Button></a>
-        </div>
-      </section>
+      
      
       {/* Hero */}
       <section id="home" className="relative overflow-hidden">
