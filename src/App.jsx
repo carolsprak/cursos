@@ -389,8 +389,7 @@ export default function LandingCursoTesteBasico() {
       <section id="matricula" className="py-16">
         <div className="max-w-6xl mx-auto px-4 grid lg:grid-cols-3 gap-6 items-start">
           <motion.div {...fadeUp} className="lg:col-span-2">
-            <h2 className="text-2xl md:text-3xl font-bold">Pense como um QA Estratégico</h2> 
-            <img src={RESULTADO} alt="Resultado do trabalho realizado" className="h-full w-full object-cover" />
+            
             <div className="grid md:grid-cols-1 gap-6 mt-6">
               <Card className="rounded-2xl">
                 <CardHeader>
@@ -405,10 +404,10 @@ export default function LandingCursoTesteBasico() {
                   </ul>
                   <a href="https://pay.hotmart.com/D93730200N"><Button className="w-full rounded-2xl mt-2">Quero evoluir minha carreira</Button></a>
                 </CardContent>
-              </Card>
-
-               
+              </Card>               
             </div>
+            <h2 className="text-2xl md:text-3xl font-bold">Pense como um QA Estratégico</h2> 
+            <img src={RESULTADO} alt="Resultado do trabalho realizado" className="h-full w-full object-cover" />
           </motion.div>
 
           {/* FAQ */}
