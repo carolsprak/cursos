@@ -406,8 +406,16 @@ export default function LandingCursoTesteBasico() {
                 </CardContent>
               </Card>               
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold">Pense como um QA Estratégico</h2> 
-            <img src={RESULTADO} alt="Resultado do trabalho realizado" className="h-full w-full object-cover" />
+           <div className="grid md:grid-cols-1 gap-6 mt-6">
+            <Card className="rounded-2xl">
+                <CardHeader>
+                  <CardTitle className="text-xl">Pense como um QA Estratégico</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3 text-sm">
+                  <img src={RESULTADO} alt="Resultado do trabalho realizado" className="h-full w-full object-cover" />
+                </CardContent>
+              </Card>       
+           </div>
           </motion.div>
 
           {/* FAQ */}
