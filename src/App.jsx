@@ -3,13 +3,15 @@ import { motion } from "framer-motion";
 import { CheckCircle2, GraduationCap, Clock, Users, FileCheck2, Cpu, Rocket, PlayCircle, ShieldCheck, BookOpenText, MessageSquare, Star, ArrowRight, Layers, Bug, ClipboardCheck, ClipboardList, GitBranch, Laptop, Smartphone, Mail, Phone, MapPin } from "lucide-react";
 import bookCover from "./assets/frente_livro_simplificando_teste.png"; 
 import mentora from "./assets/annerocha_branco.png"; 
+import resultado from "./assets/valor_resultado.png";
 
 const BOOK_TITLE = "Livro Simplificando Teste de Software";
 const BOOK_SUBTITLE = "Conceitos essenciais e exemplos sobre Teste de Software";
 const BOOK_LINK = "https://www.amazon.com.br/dp/B0CBDXJB7B";         // ⟵ troque pelo link real (ex.: Amazon/Hotmart)
 const BOOK_SAMPLE_LINK = "https://www.amazon.com.br/Simplificando-Teste-Software-Caroline-Rocha/dp/6500722159/ref=cm_cr_arp_d_product_top?ie=UTF8&asin=B0CBDXJB7B&revisionId=eb94ca7b&format=3&depth=1";  // ⟵ troque pelo PDF/landing da amostra
 const BOOK_COVER_URL = bookCover;           // ⟵ troque pela imagem da capa
-const MENTORA = mentora; 
+const MENTORA = mentora;
+const RESULTADO = resultado;
  
 // === Depoimentos (edite os nomes/roles/quotes aqui) ===
 const TESTIMONIALS = [
@@ -158,21 +160,11 @@ export default function LandingCursoTesteBasico() {
           </motion.div>
           <motion.div {...fadeUp} className="relative">
 <div className="aspect-video rounded-2xl border border-insprak-200 shadow-lg overflow-hidden bg-white">
-{YT_ID ? (
-    <iframe
-      className="h-full w-full"
-      src={`https://www.youtube.com/embed/${YT_ID}?rel=0`}
-      title="YouTube video player"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerPolicy="strict-origin-when-cross-origin"
-      allowFullScreen
-    />
-) : (
+ 
 <div className="h-full w-full grid place-items-center">
-<PlayCircle className="h-16 w-16 text-insprak-600" />
+<img src={RESULTADO} alt="Resultado do trabalho realizado" className="h-full w-full object-cover" />
 </div>
-)}
+ 
 </div>
 <p className="text-6 text-center text-insprak-700 mt-2">Curso para evolução na carreira como QA</p>
 </motion.div>
