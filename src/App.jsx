@@ -413,6 +413,7 @@ export default function LandingCursoTesteBasico() {
                 </CardHeader>
                 <CardContent className="space-y-3 text-sm">
                   <img src={RESULTADO} alt="Resultado do trabalho realizado" className="h-full w-full object-cover" />
+                  <a href="https://pay.hotmart.com/D93730200N"><Button className="w-full rounded-2xl mt-2">Quero evoluir minha carreira</Button></a>
                 </CardContent>
               </Card>       
            </div>
