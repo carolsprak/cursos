@@ -166,7 +166,7 @@ export default function LandingCursoTesteBasico() {
 </div>
  
 </div>
-<p className="text-6 text-center text-insprak-700 mt-2">Curso para evolução na carreira como QA</p>
+<p className="text-6 text-center text-insprak-700 mt-2">Profissional que agrega valor ao time!</p>
 </motion.div>
         </div>
       </section>
