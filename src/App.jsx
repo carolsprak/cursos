@@ -394,8 +394,7 @@ export default function LandingCursoTesteBasico() {
                 <CardHeader>
                   <CardTitle className="text-xl">Pense como um QA Estratégico</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-3 text-sm">
-                  <h2 className="text-2xl md:text-3xl font-bold">Pense como um QA Estratégico</h2> 
+                <CardContent className="space-y-3 text-sm">                   
                   <p className="text-insprak-700 mt-2"><b>Antes do curso</b></p>
                   <p className="text-insprak-700 mt-2">"Vou esperar a funcionalidade ficar pronta para testar."</p> 
                   <p className="text-insprak-700 mt-2">"A quantidade de bugs só aumenta e o time nem está corrigindo."</p>
